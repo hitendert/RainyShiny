@@ -59,7 +59,6 @@ class CurrentWeather {
     
     func downloadWeatherDetails(completed : @escaping DownloadComplete) {
      
-        
 // Using AlamoFire get the response in JSON Format.
         Alamofire.request(CURRENT_WEATHER_URL).responseJSON { response in
             
