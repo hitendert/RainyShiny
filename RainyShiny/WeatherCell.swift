@@ -19,8 +19,8 @@ class WeatherCell: UITableViewCell {
     
     func configureCell(forecast : ForecastWeather) {
         
-        lowTemp.text = "\(forecast.lowTemp)"
-        highTemp.text = "\(forecast.highTemp)"
+        lowTemp.text = "Min: \(forecast.lowTemp)"
+        highTemp.text = "Max: \(forecast.highTemp)"
         weatherType.text = "\(forecast.weatherType)"
         dayLabel.text = "\(forecast.date)"
         

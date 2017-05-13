@@ -72,9 +72,6 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource, C
                 }
             }
             
-            print("Hitu \(currentLocation.coordinate.latitude)")
-            print("Htiu \(currentLocation.coordinate.longitude)")
-            
             
         } else {
             locationManager.requestWhenInUseAuthorization()
